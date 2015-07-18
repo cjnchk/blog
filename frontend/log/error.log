@@ -1,0 +1,159 @@
+2015/04/01 23:10:26 [error] 22469#0: *1 directory index of "/var/www/yii2test/advanced/frontend/web/" is forbidden, client: 127.0.0.1, server: www.yii2testf.com, request: "GET / HTTP/1.1", host: "www.yii2testf.com"
+2015/04/01 23:10:31 [error] 22469#0: *1 directory index of "/var/www/yii2test/advanced/frontend/web/" is forbidden, client: 127.0.0.1, server: www.yii2testf.com, request: "GET / HTTP/1.1", host: "www.yii2testf.com"
+2015/04/01 23:11:44 [error] 23500#0: *2 directory index of "/var/www/yii2test/advanced/frontend/web/" is forbidden, client: 127.0.0.1, server: www.yii2testf.com, request: "GET / HTTP/1.1", host: "www.yii2testf.com"
+2015/04/01 23:11:46 [error] 23500#0: *2 directory index of "/var/www/yii2test/advanced/frontend/web/" is forbidden, client: 127.0.0.1, server: www.yii2testf.com, request: "GET / HTTP/1.1", host: "www.yii2testf.com"
+2015/04/01 23:11:51 [error] 23500#0: *2 directory index of "/var/www/yii2test/advanced/frontend/web/" is forbidden, client: 127.0.0.1, server: www.yii2testf.com, request: "GET / HTTP/1.1", host: "www.yii2testf.com"
+2015/07/18 00:41:22 [error] 28173#0: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'frontend\controllers\Redis' not found in /var/www/yii2test/advanced/frontend/controllers/SiteController.php on line 70
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/yii2test/advanced/frontend/web/index.php:0
+PHP message: PHP   2. yii\base\Application->run() /var/www/yii2test/advanced/frontend/web/index.php:18
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Application.php:375
+PHP message: PHP   4. yii\base\Module->runAction() /var/www/yii2test/advanced/vendor/yiisoft/yii2/web/Application.php:83
+PHP message: PHP   5. yii\base\Controller->runAction() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Module.php:455
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Controller.php:151
+PHP message: PHP   7. call_user_func_array() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/InlineAction.php:55
+PHP message: PHP   8. frontend\controllers\SiteController->actionIndex() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/InlineAction.php:55" while reading response header from upstream, client: 127.0.0.1, server: www.yii2testf.com, request: "GET /site/index HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "www.yii2testf.com", referrer: "http://www.yii2testf.com/site/index"
+2015/07/18 00:42:49 [error] 28173#0: *25 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'yii\Redis' not found in /var/www/yii2test/advanced/frontend/controllers/SiteController.php on line 71
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/yii2test/advanced/frontend/web/index.php:0
+PHP message: PHP   2. yii\base\Application->run() /var/www/yii2test/advanced/frontend/web/index.php:18
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Application.php:375
+PHP message: PHP   4. yii\base\Module->runAction() /var/www/yii2test/advanced/vendor/yiisoft/yii2/web/Application.php:83
+PHP message: PHP   5. yii\base\Controller->runAction() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Module.php:455
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Controller.php:151
+PHP message: PHP   7. call_user_func_array() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/InlineAction.php:55
+PHP message: PHP   8. frontend\controllers\SiteController->actionIndex() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/InlineAction.php:55" while reading response header from upstream, client: 127.0.0.1, server: www.yii2testf.com, request: "GET /site/index HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "www.yii2testf.com", referrer: "http://www.yii2testf.com/site/index"
+2015/07/18 00:42:50 [error] 28173#0: *25 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'yii\Redis' not found in /var/www/yii2test/advanced/frontend/controllers/SiteController.php on line 71
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/yii2test/advanced/frontend/web/index.php:0
+PHP message: PHP   2. yii\base\Application->run() /var/www/yii2test/advanced/frontend/web/index.php:18
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Application.php:375
+PHP message: PHP   4. yii\base\Module->runAction() /var/www/yii2test/advanced/vendor/yiisoft/yii2/web/Application.php:83
+PHP message: PHP   5. yii\base\Controller->runAction() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Module.php:455
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Controller.php:151
+PHP message: PHP   7. call_user_func_array() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/InlineAction.php:55
+PHP message: PHP   8. frontend\controllers\SiteController->actionIndex() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/InlineAction.php:55" while reading response header from upstream, client: 127.0.0.1, server: www.yii2testf.com, request: "GET /site/index HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "www.yii2testf.com", referrer: "http://www.yii2testf.com/site/index"
+2015/07/18 00:42:51 [error] 28173#0: *25 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'yii\Redis' not found in /var/www/yii2test/advanced/frontend/controllers/SiteController.php on line 71
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/yii2test/advanced/frontend/web/index.php:0
+PHP message: PHP   2. yii\base\Application->run() /var/www/yii2test/advanced/frontend/web/index.php:18
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Application.php:375
+PHP message: PHP   4. yii\base\Module->runAction() /var/www/yii2test/advanced/vendor/yiisoft/yii2/web/Application.php:83
+PHP message: PHP   5. yii\base\Controller->runAction() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Module.php:455
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Controller.php:151
+PHP message: PHP   7. call_user_func_array() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/InlineAction.php:55
+PHP message: PHP   8. frontend\controllers\SiteController->actionIndex() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/InlineAction.php:55" while reading response header from upstream, client: 127.0.0.1, server: www.yii2testf.com, request: "GET /site/index HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "www.yii2testf.com", referrer: "http://www.yii2testf.com/site/index"
+2015/07/18 00:42:51 [error] 28173#0: *25 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'yii\Redis' not found in /var/www/yii2test/advanced/frontend/controllers/SiteController.php on line 71
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/yii2test/advanced/frontend/web/index.php:0
+PHP message: PHP   2. yii\base\Application->run() /var/www/yii2test/advanced/frontend/web/index.php:18
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Application.php:375
+PHP message: PHP   4. yii\base\Module->runAction() /var/www/yii2test/advanced/vendor/yiisoft/yii2/web/Application.php:83
+PHP message: PHP   5. yii\base\Controller->runAction() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Module.php:455
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Controller.php:151
+PHP message: PHP   7. call_user_func_array() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/InlineAction.php:55
+PHP message: PHP   8. frontend\controllers\SiteController->actionIndex() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/InlineAction.php:55" while reading response header from upstream, client: 127.0.0.1, server: www.yii2testf.com, request: "GET /site/index HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "www.yii2testf.com", referrer: "http://www.yii2testf.com/site/index"
+2015/07/18 00:42:51 [error] 28173#0: *25 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'yii\Redis' not found in /var/www/yii2test/advanced/frontend/controllers/SiteController.php on line 71
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/yii2test/advanced/frontend/web/index.php:0
+PHP message: PHP   2. yii\base\Application->run() /var/www/yii2test/advanced/frontend/web/index.php:18
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Application.php:375
+PHP message: PHP   4. yii\base\Module->runAction() /var/www/yii2test/advanced/vendor/yiisoft/yii2/web/Application.php:83
+PHP message: PHP   5. yii\base\Controller->runAction() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Module.php:455
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Controller.php:151
+PHP message: PHP   7. call_user_func_array() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/InlineAction.php:55
+PHP message: PHP   8. frontend\controllers\SiteController->actionIndex() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/InlineAction.php:55" while reading response header from upstream, client: 127.0.0.1, server: www.yii2testf.com, request: "GET /site/index HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "www.yii2testf.com", referrer: "http://www.yii2testf.com/site/index"
+2015/07/18 00:43:04 [error] 28173#0: *25 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'yii\redis' not found in /var/www/yii2test/advanced/frontend/controllers/SiteController.php on line 71
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/yii2test/advanced/frontend/web/index.php:0
+PHP message: PHP   2. yii\base\Application->run() /var/www/yii2test/advanced/frontend/web/index.php:18
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Application.php:375
+PHP message: PHP   4. yii\base\Module->runAction() /var/www/yii2test/advanced/vendor/yiisoft/yii2/web/Application.php:83
+PHP message: PHP   5. yii\base\Controller->runAction() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Module.php:455
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Controller.php:151
+PHP message: PHP   7. call_user_func_array() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/InlineAction.php:55
+PHP message: PHP   8. frontend\controllers\SiteController->actionIndex() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/InlineAction.php:55" while reading response header from upstream, client: 127.0.0.1, server: www.yii2testf.com, request: "GET /site/index HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "www.yii2testf.com", referrer: "http://www.yii2testf.com/site/index"
+2015/07/18 00:43:05 [error] 28173#0: *25 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'yii\redis' not found in /var/www/yii2test/advanced/frontend/controllers/SiteController.php on line 71
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/yii2test/advanced/frontend/web/index.php:0
+PHP message: PHP   2. yii\base\Application->run() /var/www/yii2test/advanced/frontend/web/index.php:18
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Application.php:375
+PHP message: PHP   4. yii\base\Module->runAction() /var/www/yii2test/advanced/vendor/yiisoft/yii2/web/Application.php:83
+PHP message: PHP   5. yii\base\Controller->runAction() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Module.php:455
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Controller.php:151
+PHP message: PHP   7. call_user_func_array() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/InlineAction.php:55
+PHP message: PHP   8. frontend\controllers\SiteController->actionIndex() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/InlineAction.php:55" while reading response header from upstream, client: 127.0.0.1, server: www.yii2testf.com, request: "GET /site/index HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "www.yii2testf.com", referrer: "http://www.yii2testf.com/site/index"
+2015/07/18 00:43:13 [error] 28173#0: *25 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'yii\Redis' not found in /var/www/yii2test/advanced/frontend/controllers/SiteController.php on line 71
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/yii2test/advanced/frontend/web/index.php:0
+PHP message: PHP   2. yii\base\Application->run() /var/www/yii2test/advanced/frontend/web/index.php:18
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Application.php:375
+PHP message: PHP   4. yii\base\Module->runAction() /var/www/yii2test/advanced/vendor/yiisoft/yii2/web/Application.php:83
+PHP message: PHP   5. yii\base\Controller->runAction() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Module.php:455
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Controller.php:151
+PHP message: PHP   7. call_user_func_array() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/InlineAction.php:55
+PHP message: PHP   8. frontend\controllers\SiteController->actionIndex() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/InlineAction.php:55" while reading response header from upstream, client: 127.0.0.1, server: www.yii2testf.com, request: "GET /site/index HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "www.yii2testf.com", referrer: "http://www.yii2testf.com/site/index"
+2015/07/18 00:43:14 [error] 28173#0: *25 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'yii\Redis' not found in /var/www/yii2test/advanced/frontend/controllers/SiteController.php on line 71
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/yii2test/advanced/frontend/web/index.php:0
+PHP message: PHP   2. yii\base\Application->run() /var/www/yii2test/advanced/frontend/web/index.php:18
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Application.php:375
+PHP message: PHP   4. yii\base\Module->runAction() /var/www/yii2test/advanced/vendor/yiisoft/yii2/web/Application.php:83
+PHP message: PHP   5. yii\base\Controller->runAction() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Module.php:455
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Controller.php:151
+PHP message: PHP   7. call_user_func_array() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/InlineAction.php:55
+PHP message: PHP   8. frontend\controllers\SiteController->actionIndex() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/InlineAction.php:55" while reading response header from upstream, client: 127.0.0.1, server: www.yii2testf.com, request: "GET /site/index HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "www.yii2testf.com", referrer: "http://www.yii2testf.com/site/index"
+2015/07/18 00:43:14 [error] 28173#0: *25 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'yii\Redis' not found in /var/www/yii2test/advanced/frontend/controllers/SiteController.php on line 71
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/yii2test/advanced/frontend/web/index.php:0
+PHP message: PHP   2. yii\base\Application->run() /var/www/yii2test/advanced/frontend/web/index.php:18
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Application.php:375
+PHP message: PHP   4. yii\base\Module->runAction() /var/www/yii2test/advanced/vendor/yiisoft/yii2/web/Application.php:83
+PHP message: PHP   5. yii\base\Controller->runAction() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Module.php:455
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Controller.php:151
+PHP message: PHP   7. call_user_func_array() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/InlineAction.php:55
+PHP message: PHP   8. frontend\controllers\SiteController->actionIndex() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/InlineAction.php:55" while reading response header from upstream, client: 127.0.0.1, server: www.yii2testf.com, request: "GET /site/index HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "www.yii2testf.com", referrer: "http://www.yii2testf.com/site/index"
+2015/07/18 16:26:25 [error] 1160#0: *33 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Undefined class constant 'basePath' in /var/www/yii2test/advanced/frontend/views/layouts/main.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/yii2test/advanced/frontend/web/index.php:0
+PHP message: PHP   2. yii\base\Application->run() /var/www/yii2test/advanced/frontend/web/index.php:18
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Application.php:375
+PHP message: PHP   4. yii\base\Module->runAction() /var/www/yii2test/advanced/vendor/yiisoft/yii2/web/Application.php:83
+PHP message: PHP   5. yii\base\Controller->runAction() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Module.php:455
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Controller.php:151
+PHP message: PHP   7. call_user_func_array() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/InlineAction.php:55
+PHP message: PHP   8. frontend\controllers\SiteController->actionIndex() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/InlineAction.php:55
+PHP message: PHP   9. yii\base\Controller->render() /var/www/yii2test/advanced/frontend/controllers/SiteController.php:75
+PHP message: PHP  10. yii\base\Controller->renderContent() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Controller.php:368
+PHP message: PHP  11. yii\base\View->renderFile() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Controller.php:382
+PHP message: PHP  12. yii\base\View->renderPhpFile() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/View.php:247
+PHP message: PHP  13. require() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/View.php:325" while reading response header from upstream, client: 127.0.0.1, server: www.yii2testf.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "www.yii2testf.com"
+2015/07/18 16:26:48 [error] 1160#0: *33 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Undefined class constant 'basePath' in /var/www/yii2test/advanced/frontend/views/layouts/main.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/yii2test/advanced/frontend/web/index.php:0
+PHP message: PHP   2. yii\base\Application->run() /var/www/yii2test/advanced/frontend/web/index.php:18
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Application.php:375
+PHP message: PHP   4. yii\base\Module->runAction() /var/www/yii2test/advanced/vendor/yiisoft/yii2/web/Application.php:83
+PHP message: PHP   5. yii\base\Controller->runAction() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Module.php:455
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Controller.php:151
+PHP message: PHP   7. call_user_func_array() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/InlineAction.php:55
+PHP message: PHP   8. frontend\controllers\SiteController->actionIndex() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/InlineAction.php:55
+PHP message: PHP   9. yii\base\Controller->render() /var/www/yii2test/advanced/frontend/controllers/SiteController.php:75
+PHP message: PHP  10. yii\base\Controller->renderContent() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Controller.php:368
+PHP message: PHP  11. yii\base\View->renderFile() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Controller.php:382
+PHP message: PHP  12. yii\base\View->renderPhpFile() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/View.php:247
+PHP message: PHP  13. require() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/View.php:325" while reading response header from upstream, client: 127.0.0.1, server: www.yii2testf.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "www.yii2testf.com"
+2015/07/18 16:26:54 [error] 1160#0: *33 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /var/www/yii2test/advanced/frontend/views/layouts/main.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/yii2test/advanced/frontend/web/index.php:0
+PHP message: PHP   2. yii\base\Application->run() /var/www/yii2test/advanced/frontend/web/index.php:18
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Application.php:375
+PHP message: PHP   4. yii\base\Module->runAction() /var/www/yii2test/advanced/vendor/yiisoft/yii2/web/Application.php:83
+PHP message: PHP   5. yii\base\Controller->runAction() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Module.php:455
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Controller.php:151
+PHP message: PHP   7. call_user_func_array() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/InlineAction.php:55
+PHP message: PHP   8. frontend\controllers\SiteController->actionIndex() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/InlineAction.php:55
+PHP message: PHP   9. yii\base\Controller->render() /var/www/yii2test/advanced/frontend/controllers/SiteController.php:75
+PHP message: PHP  10. yii\base\Controller->renderContent() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Controller.php:368
+PHP message: PHP  11. yii\base\View->renderFile() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/Controller.php:382
+PHP message: PHP  12. yii\base\View->renderPhpFile() /var/www/yii2test/advanced/vendor/yiisoft/yii2/base/View.php:247" while reading response header from upstream, client: 127.0.0.1, server: www.yii2testf.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "www.yii2testf.com"
